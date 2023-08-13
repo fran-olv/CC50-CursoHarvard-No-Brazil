@@ -1,7 +1,0 @@
-1- Peça ao usuário o tamanho da altura.
-2- Se o tamanho da altura for menor que 1 ou maior que 8(ou não inteiro), fique nesse passo até que o usuário insira uma entrada válida.
-3- Itere a variável i até o tamanho da altura (n).
-4 - Itere a variavel j até o valor da altura
-    4.1 - imprime os PONTOS que que é linha
-    4.2 - imprime os espacos que é n-1
-    4.3 - quebre a linha
