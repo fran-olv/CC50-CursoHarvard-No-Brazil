@@ -5,3 +5,6 @@
     4.1 - imprime os PONTOS que que é linha
     4.2 - imprime os espacos que é n-1
     4.3 - quebre a linha
+
+
+https://www.youtube.com/watch?v=u4a3qF05WMg
