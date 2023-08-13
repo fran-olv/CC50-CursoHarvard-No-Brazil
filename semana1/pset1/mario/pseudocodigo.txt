@@ -7,4 +7,49 @@
     4.3 - quebre a linha
 
 
+LOGICA DO HASTAG
+altura 4
+linha 0 #
+linha 1 ##
+linha 2 ###
+linha 3 ####
+
+
+se coluna <= linha > escreva #
+
+(coluna sempre iniciliza do 0)
+
+
+1 repetição
+Linha = 0 
+Coluna = 0 , 1(Falso), 2(Falso), 3(Falso)
+escreve #
+
+2 repetição
+Linha = 1
+Coluna = 0 , 1,  2(Falso), 3(Falso)
+escreve ##
+
+3 repeticao
+Linha = 2
+Coluna = 0 , 1,  2, 3(Falso)
+escreve ###
+
+4 repeticao
+Linha = 3
+Coluna = 0 , 1,  2, 3
+escreve ####
+
+
+LOGICA DO ESPACO
+altura 4
+tela| linha   | espaco   | hastag
+~~~#| linha 0 | espaco 3 | hastag 1
+~~##| linha 1 | espaco 2 | hastag 2
+~###| linha 2 | espaco 2 | hastag 3
+####| linha 3 | espaco 1 | hastag 4
+
+espaco = altura - linha - 1
+
+
 https://www.youtube.com/watch?v=u4a3qF05WMg
