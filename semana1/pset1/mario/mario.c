@@ -3,24 +3,25 @@
 
 int main(void)
 {
-     //  Pega o valor de n com o usuário
-    int altura;
+     //  Solicita ao usuário o valor da altura
+    int altura, linha, espaco, coluna;
     do
     {
           altura = get_int("Largura: ");
     }
     while (altura < 1 || altura > 8);
 
-    // Imprima pontos de interrogação
-     for(int linha = 0; linha < altura; linha++)
+    // Imprime ponros
+     for(linha = 0; linha < altura; linha++)
     {
-        for(int coluna = 0; coluna < altura ; coluna++)
+        for (espaco = 0; espaco < altura-linha-1; espaco++)
         {
-            if(linha+coluna <altura-1)
-                printf(" ");
-            else
-                printf("#");
+            printf(" ");
+        }
+        for(coluna = 0; coluna <= linha ; coluna++)
+        {
+            printf("#");
         }
     printf("\n");
-    }
+   }
 }
