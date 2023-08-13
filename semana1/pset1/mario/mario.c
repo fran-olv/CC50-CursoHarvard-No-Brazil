@@ -4,19 +4,19 @@
 int main(void)
 {
      //  Pega o valor de n com o usuário
-    int n;
+    int altura;
     do
     {
-          n = get_int("Largura: ");
+          altura = get_int("Largura: ");
     }
-    while (n < 1 || n > 8);
+    while (altura < 1 || altura > 8);
 
     // Imprima pontos de interrogação
-     for(int i = 0; i < n; i++)
+     for(int linha = 0; linha < altura; linha++)
     {
-        for(int j = 0; j < n ; j++)
+        for(int coluna = 0; coluna < altura ; coluna++)
         {
-            if(i+j <n-1)
+            if(linha+coluna <altura-1)
                 printf(" ");
             else
                 printf("#");
